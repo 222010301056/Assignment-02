@@ -56,7 +56,16 @@ import unittest
 
 
 def number_of_bits(n):
-    pass
+    l1=[]
+    while n>=1:
+        a=n%2
+        l1.append(a)
+        n=n//2
+    c=0
+    for i in range(0,len(l1)):
+        if l1[i]==1:
+            c+=1
+    return c
 
 
 # DO NOT TOUCH THE BELOW CODE
