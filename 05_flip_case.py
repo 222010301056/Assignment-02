@@ -28,7 +28,7 @@ import unittest
 
 
 def flip_case(s):
-    pass
+    return s.swapcase()
 
 
 
