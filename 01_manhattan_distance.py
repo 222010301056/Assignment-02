@@ -26,7 +26,7 @@ import unittest
 
 
 def manhattan_distance(x0, y0, x1, y1):
-    pass
+    return abs(x1-x0)+abs(y1-y0)
 
 
 # DO NOT TOUCH THE BELOW CODE
