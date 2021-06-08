@@ -27,7 +27,13 @@ import unittest
 
 
 def multiplication_table(n):
-    pass
+    a=n+1
+    table = [[a] * (a-1) for _ in range(a-1)]
+    for i in range(1, a):
+        for j in range(1, a):
+            table[i-1][j-1] = i*j
+    return table
+
 
 
 # DO NOT TOUCH THE BELOW CODE
